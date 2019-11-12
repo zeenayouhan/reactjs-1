@@ -1,17 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Greet from './component/Greet';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-        hello world kavindu
-        </p>
-        
-      </header>
-    </div>
+      <Greet></Greet>
+          </div>
   );
 }
 
